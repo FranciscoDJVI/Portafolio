@@ -1,78 +1,33 @@
+import React from "react";
 import { motion } from "framer-motion";
-const StyleLi = {
-  fontSize: "2rem",
-  margin: "30px",
-  background: "var(--principal-color)",
-  padding: "10px",
-  border: "10px var(--principal-color) solid",
-  boxShadow: "3px 3px 15px #0d1b2a,-3px -3px 15px #babecc",
-  borderRadius: "15px",
-};
-const skills = [
-  "Python",
-  "Javascript",
-  "Mysql",
-  "Django",
-  "Git",
-  "Github",
-  "React",
-  "Nvim",
-];
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPython,
+  faReact,
+  faGit,
+  faGithub,
+  faJs,
+} from "@fortawesome/free-brands-svg-icons";
 
-// Definir las variantes de la animacion para el contenedor
-const containerVarinats = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    tansition: {
-      straggerChildren: 0.5, // Retraso de la animacion entre cada elmento hijo.
-    },
-  },
-};
-
-// Definir las variantes de la animacion para cada elemento de la lista.
-const itemVariants = {
-  hidden: { opacity: 0, x: -100 },
-  show: { opacity: 1, x: 0 },
+const StyleFontAweson = {
+  filter: "drop-shadow(2px 2px 3px  #dddddd)",
 };
 
 function Skills() {
   return (
-    <div className="skills">
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyItems: "center",
-          alignItems: "center",
-        }}
+    <div>
+      <motion.h2
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
       >
-        <h2
-          style={{
-            fontSize: "3rem",
-            marginBottom: "3rem",
-          }}
-        >
-          Skills
-        </h2>
-        <motion.ul
-          variants={containerVarinats}
-          initial="hidden"
-          animate="show"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "4",
-            listStyleType: "none",
-          }}
-        >
-          {skills.map((skill, index) => (
-            <motion.li style={StyleLi} key={index} variants={itemVariants}>
-              {skill}
-            </motion.li>
-          ))}
-        </motion.ul>
-      </div>
+        Skills
+      </motion.h2>
+      <FontAwesomeIcon icon={faPython} size="4x" style={StyleFontAweson} />
+      <FontAwesomeIcon icon={faReact} size="4x" style={StyleFontAweson} />
+      <FontAwesomeIcon icon={faGit} size="4x" style={StyleFontAweson} />
+      <FontAwesomeIcon icon={faGithub} size="4x" style={StyleFontAweson} />
+      <FontAwesomeIcon icon={faJs} size="4x" style={StyleFontAweson} />
     </div>
   );
 }

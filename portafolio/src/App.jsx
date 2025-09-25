@@ -6,14 +6,14 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <>
+    <div className="container">
       <Avatar />
       <div style={{ display: "flex", flexDirection: "row" }}>
         <PresentationText />
         <Hobbies />
       </div>
       <Skills />
-    </>
+    </div>
   );
 }
 

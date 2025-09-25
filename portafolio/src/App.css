@@ -4,3 +4,14 @@
   padding: 2rem;
   text-align: center;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow:
+    3px 3px 15px #0d1b2a,
+    -3px -3px 15px #babecc;
+  width: fit-content;
+  height: auto;
+}

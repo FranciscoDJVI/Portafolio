@@ -1,12 +1,16 @@
 import "./App.css";
 import Avatar from "./components/Avatar";
 import PresentationText from "./components/PresentationText";
+import Hobbies from "./components/Hobbies";
 
 function App() {
   return (
     <>
       <Avatar />
-      <PresentationText />
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <PresentationText />
+        <Hobbies />
+      </div>
     </>
   );
 }

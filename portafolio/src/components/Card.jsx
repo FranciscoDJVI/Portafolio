@@ -4,11 +4,15 @@ import { motion } from "framer-motion";
 const styleCard = {
   textAlign: "justify",
   fontSize: "14px",
-  border: "5px #dddddd solid",
+  boxShadow: "3px 3px 3px 0 #000000, -3px -3px 3px 0 #000000",
+  backgroundColor: "#dddddd",
+  color: "#212121",
   borderRadius: "15px",
   padding: "30px",
   width: "300px",
-  height: "auto",
+  height: "200px",
+  marginRight: "10px",
+  marginTop: "10px",
 };
 
 function Card(props) {

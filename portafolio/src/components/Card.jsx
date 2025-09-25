@@ -3,10 +3,12 @@ import { motion } from "framer-motion";
 
 const styleCard = {
   textAlign: "justify",
-  fontSize: "2rem",
+  fontSize: "14px",
   border: "5px #dddddd solid",
   borderRadius: "15px",
-  padding: "10px",
+  padding: "30px",
+  width: "300px",
+  height: "auto",
 };
 
 function Card(props) {

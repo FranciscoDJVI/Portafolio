@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 const styleCard = {
   textAlign: "justify",
   fontSize: "14px",
-  boxShadow: "3px 3px 3px 0 #000000, -3px -3px 3px 0 #000000",
-  backgroundColor: "#dddddd",
-  color: "#212121",
+  boxShadow: "3px 3px 15px #0d1b2a,-3px -3px 15px #babecc",
+  background: "var(--principal-color)",
+  color: "#f1f1f1f1",
   borderRadius: "15px",
   padding: "30px",
   width: "300px",

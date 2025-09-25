@@ -17,6 +17,16 @@ const customImg = {
   height: "400px",
 };
 
+const styleLi = {
+  backgroundColor: "#3A37E6",
+  fontSize: "24px",
+  fontStyle: "none",
+  marginTop: "5px",
+  borderRadius: "25px",
+  width: "fit-content",
+  padding: "10px",
+};
+
 function Avatar() {
   return (
     <div className="avatar" style={customStyle}>
@@ -36,7 +46,7 @@ function Avatar() {
         style={{ margin: "20px" }}
       >
         <h2>Francisco Vanegas</h2>
-        <li style={{ fontSize: "2rem", fontStyle: "none" }}>
+        <li style={styleLi}>
           <a
             style={{ textDecoration: "none", color: "var(--secondary-color)" }}
             href="https://github.com/FranciscoDJVI"
@@ -46,7 +56,7 @@ function Avatar() {
             Github
           </a>
         </li>
-        <li style={{ fontSize: "2rem", fontStyle: "none" }}>
+        <li style={styleLi}>
           <a
             style={{ textDecoration: "none", color: "var(--secondary-color)" }}
             href="https://www.linkedin.com/in/francisco-vanegas-134522229"

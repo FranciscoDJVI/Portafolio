@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container">
       <Avatar />
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div className="card-principal">
         <PresentationText />
         <Hobbies />
       </div>

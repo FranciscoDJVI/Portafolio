@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import avatar from "../assets/images/avatar.webp";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Avatar() {
   return (
@@ -25,7 +27,7 @@ function Avatar() {
             target="_blank"
             rel="nooponer noreferrer"
           >
-            Github
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </li>
         <li>
@@ -34,7 +36,7 @@ function Avatar() {
             target="_blank"
             rel="nooponer noreferrer"
           >
-            Linkedin
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
       </motion.ol>

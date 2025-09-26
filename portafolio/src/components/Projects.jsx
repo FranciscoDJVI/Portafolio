@@ -10,6 +10,8 @@ import psys8 from "../assets/images/psys_8.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectPersonal = () => {
   const settings = {
@@ -56,7 +58,7 @@ const ProjectPersonal = () => {
         target="_blank"
         rel="nooponer noreferrer"
       >
-        Link
+        <FontAwesomeIcon icon={faGithub} />
       </a>
     </div>
   );

@@ -1,30 +1,18 @@
 import { Link } from "react-router-dom";
 
-const customStyleLink = {
-  textDecoration: "none",
-  margin: "10px",
-  color: "#dddddd",
-  fontSize: "2rem",
-  textShadow: "0 0 3px #000000 ",
-};
-
-const customStyleNav = {
-  background: "var(--principal-color)",
-};
-
 function NavBar() {
   return (
-    <nav className="navbar" style={customStyleNav}>
-      <Link style={customStyleLink} to="/presentation">
+    <nav className="navbar">
+      <Link className="link" to="/presentation">
         Presentacion
       </Link>
-      <Link style={customStyleLink} to="/hobbies">
+      <Link className="link" to="/hobbies">
         Hobbies
       </Link>
-      <Link style={customStyleLink} to="/skills">
+      <Link className="link" to="/skills">
         Skils
       </Link>
-      <Link style={customStyleLink} to="/projects">
+      <Link className="link" to="/projects">
         Proyectos
       </Link>
     </nav>

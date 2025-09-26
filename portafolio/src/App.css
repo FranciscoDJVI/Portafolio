@@ -14,6 +14,7 @@
     -3px -3px 5px #babecc;
   width: 1200px;
   height: auto;
+  border-radius: 15px;
 }
 
 @media (min-width: 812px) and (max-width: 1400px) {
@@ -22,12 +23,29 @@
     width: 1200px;
     height: auto;
   }
+  .navbar {
+    position: fixed;
+    padding: 5px;
+    margin: 0;
+    z-index: 1000;
+    margin-bottom: 100px;
+    background: #212121;
+    box-shadow:
+      2px 2px 3px #babecc,
+      -2px -2px 3px #212121;
+  }
+  .navbar .link {
+    color: #dddddd;
+    font-size: 20px;
+    margin: 10px;
+  }
   .avatar {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: 200px;
   }
 
   .avatar .avatar-img {
@@ -45,39 +63,43 @@
     width: 0;
   }
   .avatar a {
-    background-color: #3a37e6;
+    background-color: lightsteelblue;
     font-size: 20px;
     margin-top: 5px;
     border-radius: 10px;
     width: 100px;
     padding: 3px;
     margin-left: 0;
-    color: #dddddd;
+    color: #212121;
   }
   .card-principal {
     display: flex;
     flex-direction: row;
+    margin-bottom: 400px;
   }
   .card {
     text-align: justify;
     font-size: 14px;
     box-shadow:
-      3px 3px 15px #0d1b2a,
-      -3px -3px 15px #babecc;
+      3px 3px 5px #0d1b2a,
+      -3px -3px 5px #babecc;
     background: "var(--principal-color)";
     padding: #f1f1f1f1;
     border-radius: 15px;
     padding: 30px;
     width: 250px;
     height: auto;
-    margin: 10px;
+    margin: 25px;
   }
   .skills .icons {
     font-size: 60px;
     filter: drop-shadow(2px 2px 3px #dddddd);
+    margin-bottom: 400px;
   }
   .projects {
     width: 700px;
+    display: flex;
+    flex-direction: column;
   }
   .projects img {
     width: 720px;
@@ -86,7 +108,7 @@
     transition-delay: 0.5ms;
     transition-timing-function: ease-in-out;
   }
-  .projects:hover {
+  .projects {
     width: 1000px;
     transition: width;
     transition-duration: 0.5s;
@@ -101,14 +123,13 @@
     transition-timing-function: ease-in-out;
   }
   .projects a {
-    background-color: #3a37e6;
+    background-color: lightsteelblue;
     font-size: 18px;
-    margin-top: 5px;
     border-radius: 5px;
-    width: 100px;
+    width: fit-content;
     padding: 5px;
-    margin-left: 0;
-    color: #dddddd;
+    color: #212121;
+    z-index: 1;
   }
 }
 

@@ -8,23 +8,14 @@ import ProjectPersonal from "./components/Projects";
 
 function App() {
   return (
-    <div className="container">
-      <FadeInSection>
-        <Avatar />
-      </FadeInSection>
-      <FadeInSection>
-        <div className="card-principal">
-          <PresentationText />
-          <Hobbies />
-        </div>
-      </FadeInSection>
-      <FadeInSection>
-        <Skills />
-      </FadeInSection>
-      <FadeInSection>
-        <ProjectPersonal />
-      </FadeInSection>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/avatar" element={<Avatar />} />
+      <Route path="/presentation" element={<PresentationText />} />
+      <Route path="/hobbies" element={<Hobbies />} />
+      <Route path="/skills" element={<Skills />} />
+      <Route path="/projects" element={<ProjectPersonal />} />
+    </Routes>
   );
 }
 

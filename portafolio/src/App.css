@@ -13,11 +13,11 @@
     3px 3px 5px #0d1b2a,
     -3px -3px 5px #babecc;
   width: 1200px;
-  height: auto;
+  height: fit-content;
   border-radius: 15px;
 }
 
-@media (min-width: 812px) and (max-width: 1400px) {
+@media (max-width: 2444px) {
   .container {
     flex-wrap: wrap;
     width: 1200px;
@@ -32,7 +32,6 @@
     width: fit-content;
     z-index: 1000;
     padding: 1rem;
-    margin-bottom: 100px;
     box-shadow:
       2px 2px 3px #babecc,
       -2px -2px 3px #212121;
@@ -49,7 +48,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 200px;
   }
 
@@ -102,31 +101,18 @@
     margin-bottom: 400px;
   }
   .projects {
-    width: 700px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
   }
   .projects img {
-    width: 720px;
-    transition: width;
-    transition-duration: 0.5s;
-    transition-delay: 0.5ms;
-    transition-timing-function: ease-in-out;
-  }
-  .projects {
     width: 1000px;
     transition: width;
     transition-duration: 0.5s;
     transition-delay: 0.5ms;
     transition-timing-function: ease-in-out;
   }
-  .projects img:hover {
-    width: 1000px;
-    transition: width;
-    transition-duration: 0.5s;
-    transition-delay: 0.5ms;
-    transition-timing-function: ease-in-out;
-  }
+
   .projects a {
     background-color: lightsteelblue;
     font-size: 18px;
@@ -138,7 +124,7 @@
   }
 }
 
-@media (min-width: 370px) and (max-width: 812px) {
+@media (max-width: 321px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -155,7 +141,7 @@
     width: fit-content;
     z-index: 1000;
     padding: 1rem;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     box-shadow:
       2px 2px 3px #babecc,
       -2px -2px 3px #212121;

@@ -2,17 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import avatar from "../assets/images/avatar.webp";
 
-const styleLi = {
-  backgroundColor: "#3A37E6",
-  fontSize: "20px",
-  fontStyle: "none",
-  marginTop: "5px",
-  borderRadius: "25px",
-  width: "100px",
-  padding: "5px",
-  marginLeft: "20px",
-};
-
 function Avatar() {
   return (
     <div className="avatar">
@@ -28,12 +17,10 @@ function Avatar() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
-        style={{ margin: "20px" }}
       >
         <h2>Francisco Vanegas</h2>
-        <li style={styleLi}>
+        <li>
           <a
-            style={{ textDecoration: "none", color: "var(--secondary-color)" }}
             href="https://github.com/FranciscoDJVI"
             target="_blank"
             rel="nooponer noreferrer"
@@ -41,9 +28,8 @@ function Avatar() {
             Github
           </a>
         </li>
-        <li style={styleLi}>
+        <li>
           <a
-            style={{ textDecoration: "none", color: "var(--secondary-color)" }}
             href="https://www.linkedin.com/in/francisco-vanegas-134522229"
             target="_blank"
             rel="nooponer noreferrer"

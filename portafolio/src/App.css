@@ -10,8 +10,8 @@
   flex-direction: column;
   align-items: center;
   box-shadow:
-    3px 3px 15px #0d1b2a,
-    -3px -3px 15px #babecc;
+    3px 3px 5px #0d1b2a,
+    -3px -3px 5px #babecc;
   width: 1200px;
   height: auto;
 }
@@ -99,6 +99,16 @@
     transition-duration: 0.5s;
     transition-delay: 0.5ms;
     transition-timing-function: ease-in-out;
+  }
+  .projects a {
+    background-color: #3a37e6;
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+    margin-left: 0;
+    color: #dddddd;
   }
 }
 

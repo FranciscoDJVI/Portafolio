@@ -21,7 +21,6 @@ const ProjectPersonal = () => {
     autoplay: true,
     autoplaySpeed: 3000,
   };
-  const customStyleImg = {};
 
   return (
     <div className="projects">
@@ -57,7 +56,7 @@ const ProjectPersonal = () => {
         target="_blank"
         rel="nooponer noreferrer"
       >
-        Enlace-Github
+        Link
       </a>
     </div>
   );

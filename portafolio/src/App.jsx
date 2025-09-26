@@ -1,4 +1,5 @@
 import "./App.css";
+import FadeInSection from "./components/FadeInsection";
 import Avatar from "./components/Avatar";
 import PresentationText from "./components/PresentationText";
 import Hobbies from "./components/Hobbies";
@@ -8,13 +9,21 @@ import ProjectPersonal from "./components/Projects";
 function App() {
   return (
     <div className="container">
-      <Avatar />
-      <div className="card-principal">
-        <PresentationText />
-        <Hobbies />
-      </div>
-      <Skills />
-      <ProjectPersonal />
+      <FadeInSection>
+        <Avatar />
+      </FadeInSection>
+      <FadeInSection>
+        <div className="card-principal">
+          <PresentationText />
+          <Hobbies />
+        </div>
+      </FadeInSection>
+      <FadeInSection>
+        <Skills />
+      </FadeInSection>
+      <FadeInSection>
+        <ProjectPersonal />
+      </FadeInSection>
     </div>
   );
 }

@@ -1,10 +1,11 @@
 import "./App.css";
-import FadeInSection from "./components/FadeInsection";
 import Avatar from "./components/Avatar";
 import PresentationText from "./components/PresentationText";
 import Hobbies from "./components/Hobbies";
 import Skills from "./components/Skills";
 import ProjectPersonal from "./components/Projects";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home.jsx";
 
 function App() {
   return (

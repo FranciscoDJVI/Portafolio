@@ -1,11 +1,10 @@
-import "./App.css";
-import FadeInSection from "./components/FadeInsection";
-import Avatar from "./components/Avatar";
-import PresentationText from "./components/PresentationText";
-import Hobbies from "./components/Hobbies";
-import Skills from "./components/Skills";
-import ProjectPersonal from "./components/Projects";
-import NavBar from "./components/Navbar";
+import Avatar from "./Avatar";
+import PresentationText from "./PresentationText";
+import Hobbies from "./Hobbies";
+import Skills from "./Skills";
+import ProjectPersonal from "./Projects";
+import NavBar from "./Navbar";
+import FadeInSection from "./FadeInSection";
 
 function Home() {
   return (

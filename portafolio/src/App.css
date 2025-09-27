@@ -56,11 +56,10 @@
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 2px #dddddd solid;
     border-radius: 50%;
     box-shadow:
-      3px 3px 5px #0d1b2a,
-      -3px -3px 5px #babecc;
+      2px 2px 3px #0d1b2a,
+      -2px -2px 3px #babecc;
   }
   .avatar ol {
     margin-left: 30px;
@@ -72,8 +71,8 @@
     width: 0;
   }
   .avatar a {
-    background-color: lightsteelblue;
-    font-size: 20px;
+    background-color: #dddddd;
+    font-size: 30px;
     margin-top: 5px;
     border-radius: 10px;
     width: 100px;
@@ -129,13 +128,13 @@
   }
 }
 
-@media (max-width: 321px) {
+@media (min-width: 280px) and (max-width: 640px) {
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: fit-content;
+    width: 990px;
   }
   .navbar {
     position: fixed;
@@ -165,27 +164,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 300px;
   }
   .avatar ol {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     padding: 0;
+    text-align: center;
   }
   .avatar li {
     margin-top: 10px;
+    width: 100px;
   }
   .avatar a {
-    background-color: #3a37e6;
+    background-color: #dddddd;
     font-size: 14px;
     margin-top: 5px;
     border-radius: 10px;
     width: 100px;
+    font-size: 30px;
     padding: 3px;
     margin-left: 0;
-    color: #dddddd;
+    color: #212121;
   }
   .avatar .avatar-img {
     width: 150px;
@@ -193,9 +195,7 @@
     object-fit: cover;
     clip-path: circle(50% at 50% 50%);
   }
-  .avatar ol {
-    font-size: 12px;
-  }
+
   .card-principal {
     display: flex;
     flex-direction: column;
@@ -221,8 +221,6 @@
   }
   .projects {
     width: 700px;
-    display: flex;
-    flex-direction: column;
   }
   .projects img {
     width: 720px;
@@ -232,7 +230,7 @@
     transition-timing-function: ease-in-out;
   }
   .projects {
-    width: 1000px;
+    width: 720px;
     transition: width;
     transition-duration: 0.5s;
     transition-delay: 0.5ms;

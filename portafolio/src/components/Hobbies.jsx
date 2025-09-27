@@ -8,7 +8,7 @@ function Hobbies() {
     <Card
       title={titleInfo}
       textInfo={hobbies.map((hobby, index) => (
-        <li key={index}>{hobby}</li>
+        <span key={index}>{hobby}</span>
       ))}
     />
   );

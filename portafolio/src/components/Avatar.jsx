@@ -15,33 +15,29 @@ function Avatar() {
         src={avatar}
         alt="Avatar"
       ></motion.img>
-      <motion.ol
+      <motion.aside
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <h2>Francisco Vanegas</h2>
-        <li>
-          <a
-            href="https://github.com/FranciscoDJVI"
-            target="_blank"
-            rel="nooponer noreferrer"
-            alt="github"
-          >
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/francisco-vanegas-134522229"
-            target="_blank"
-            rel="nooponer noreferrer"
-            alt="linkedin"
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-        </li>
-      </motion.ol>
+        <a
+          href="https://github.com/FranciscoDJVI"
+          target="_blank"
+          rel="nooponer noreferrer"
+          alt="github"
+        >
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/francisco-vanegas-134522229"
+          target="_blank"
+          rel="nooponer noreferrer"
+          alt="linkedin"
+        >
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+      </motion.aside>
     </div>
   );
 }

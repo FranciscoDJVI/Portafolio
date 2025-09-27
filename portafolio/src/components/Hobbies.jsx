@@ -8,9 +8,9 @@ function Hobbies() {
     <Card
       title={titleInfo}
       textInfo={hobbies.map((hobby, index) => (
-        <ol>
+        <ul>
           <li key={index}>{hobby}</li>
-        </ol>
+        </ul>
       ))}
     />
   );

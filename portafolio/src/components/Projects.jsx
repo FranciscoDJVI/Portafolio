@@ -1,12 +1,7 @@
 import React from "react";
-import psys1 from "../assets/images/psys_1.jpg";
-import psys2 from "../assets/images/psys_2.jpg";
-import psys3 from "../assets/images/psys_3.jpg";
-import psys4 from "../assets/images/psys_4.jpg";
-import psys5 from "../assets/images/psys_5.jpg";
-import psys6 from "../assets/images/psys_6.jpg";
-import psys7 from "../assets/images/psys_7.jpg";
-import psys8 from "../assets/images/psys_8.jpg";
+import psys1 from "../assets/images/psys_1.webp";
+import psys2 from "../assets/images/psys_2.webp";
+import psys3 from "../assets/images/psys_3.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -42,21 +37,6 @@ const ProjectPersonal = () => {
         </div>
         <div>
           <img src={psys3} alt="psys_3" />
-        </div>
-        <div>
-          <img src={psys4} alt="psys_4" />
-        </div>
-        <div>
-          <img src={psys5} alt="psys_5" />
-        </div>
-        <div>
-          <img src={psys6} alt="psys_6" />
-        </div>
-        <div>
-          <img src={psys7} alt="psys_7" />
-        </div>
-        <div>
-          <img src={psys8} alt="psys_8" />
         </div>
       </Slider>
       <a

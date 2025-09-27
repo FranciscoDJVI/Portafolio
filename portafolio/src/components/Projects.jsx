@@ -63,6 +63,7 @@ const ProjectPersonal = () => {
         href="https://github.com/FranciscoDJVI/work-personal"
         target="_blank"
         rel="nooponer noreferrer"
+        alt="Project Psys"
       >
         <FontAwesomeIcon icon={faGithub} />
       </a>

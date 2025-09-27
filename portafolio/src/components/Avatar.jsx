@@ -26,6 +26,7 @@ function Avatar() {
             href="https://github.com/FranciscoDJVI"
             target="_blank"
             rel="nooponer noreferrer"
+            alt="github"
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
@@ -35,6 +36,7 @@ function Avatar() {
             href="https://www.linkedin.com/in/francisco-vanegas-134522229"
             target="_blank"
             rel="nooponer noreferrer"
+            alt="linkedin"
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>

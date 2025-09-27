@@ -28,6 +28,12 @@ const ProjectPersonal = () => {
     <div className="projects">
       <h2>Proyectos</h2>
       <Slider {...settings} className="slider">
+        <p>
+          PsysMsql - Sistema de Gestión de Ventas 🛍️PsysMsql es una aplicación
+          web completa de gestión de ventas desarrollada con Django que permite
+          administrar productos, stock, ventas y usuarios con diferentes roles y
+          permisos.;
+        </p>
         <div>
           <img src={psys1} alt="psys_1" />
         </div>

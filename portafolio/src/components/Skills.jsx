@@ -19,13 +19,18 @@ function Skills() {
       >
         Skills
       </motion.h2>
-      <aside className="icons">
+      <motion.aside
+        className="icons"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+      >
         <FontAwesomeIcon icon={faPython} />
         <FontAwesomeIcon icon={faReact} />
         <FontAwesomeIcon icon={faGit} />
         <FontAwesomeIcon icon={faGithub} />
         <FontAwesomeIcon icon={faJs} />
-      </aside>
+      </motion.aside>
     </div>
   );
 }

@@ -56,6 +56,11 @@
     width: 300px;
     height: 300px;
     margin: 10px;
+    border: 2px #dddddd solid;
+    border-radius: 50%;
+    box-shadow:
+      3px 3px 5px #0d1b2a,
+      -3px -3px 5px #babecc;
   }
   .avatar ol {
     margin-left: 30px;
@@ -185,6 +190,8 @@
   .avatar .avatar-img {
     width: 150px;
     height: 150px;
+    object-fit: cover;
+    clip-path: circle(50% at 50% 50%);
   }
   .avatar ol {
     font-size: 12px;

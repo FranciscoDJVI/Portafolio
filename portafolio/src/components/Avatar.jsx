@@ -26,6 +26,7 @@ function Avatar() {
           target="_blank"
           rel="nooponer noreferrer"
           alt="github"
+          aria-label="Read more information abnout github"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
@@ -34,6 +35,7 @@ function Avatar() {
           target="_blank"
           rel="nooponer noreferrer"
           alt="linkedin"
+          aria-label="Read more informaation about linkedin"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>

@@ -183,14 +183,14 @@
   .avatar .avatar-img {
     width: 150px;
     height: 150px;
-    object-fit: cover;
-    clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
   }
 
   .card-principal {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    margin-bottom: 400px;
   }
   .card {
     display: flex;

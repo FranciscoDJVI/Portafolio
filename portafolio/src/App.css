@@ -40,6 +40,7 @@
     text-decoration: none;
     font-size: 20px;
     margin: 10px;
+    font-weight: lighter;
   }
   h2,
   h3 {
@@ -156,6 +157,15 @@
     color: #212121;
     font-size: 18px;
     margin: 5px;
+    font-weight: lighter;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  h2,
+  h3 {
+    font-weight: lighter;
+    font-size: 18px;
   }
 
   .avatar {

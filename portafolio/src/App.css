@@ -24,7 +24,6 @@
     position: fixed;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     top: 40px;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -143,7 +142,6 @@
     position: fixed;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     top: 40px;
     left: 50%;
     transform: translate(-50%, -50%);

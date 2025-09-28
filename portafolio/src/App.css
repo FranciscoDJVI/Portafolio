@@ -56,7 +56,7 @@
   }
 
   .avatar .avatar-img {
-    width: 300px;
+    width: 100%;
     height: auto;
     max-width: 300px;
     margin: 10px;
@@ -196,7 +196,7 @@
     color: #212121;
   }
   .avatar .avatar-img {
-    width: 200px;
+    width: 100%;
     height: auto;
     max-width: 200px;
     border-radius: 50%;

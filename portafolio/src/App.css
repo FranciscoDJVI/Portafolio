@@ -24,7 +24,7 @@
     position: fixed;
     display: flex;
     flex-direction: row;
-    top: 40px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -142,7 +142,7 @@
     position: fixed;
     display: flex;
     flex-direction: row;
-    top: 40px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;

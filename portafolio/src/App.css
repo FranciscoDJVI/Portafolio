@@ -26,7 +26,8 @@
     flex-direction: row;
     top: 60px;
     left: 50%;
-    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
     transform: translate(-50%, -50%);
     width: 100%;
     z-index: 1000;

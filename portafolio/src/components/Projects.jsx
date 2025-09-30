@@ -41,16 +41,17 @@ const ProjectPersonal = () => {
           <strong>Duración: </strong>7 meses
         </p>
         <p>
-          1. El Desafío: Simular sistema de registro de inventario y ventas de
-          la empresa donde laboro actualmente. Panaderia pero en el area de
-          ventas se utilza un sistema POS llamado epico. 2.La Solución (Tu
-          Trabajo) "Diseñé y construí un panel de control (dashboard)
-          interactivo en django.Implementé una lógica de filtrado ajax para la
-          busqueda de prodcutos en la base de datos. y un sistem de envio de
-          correo informativo de forma asincrona con celery y reddit al realizar
-          una venta 3. Aprendizaje: Aprenddi al creacion de proyectos con
-          django, la integracion con celery, Javascript. conexion a base de
-          datos difente a la predeterminada de django.
+          <strong>1. El Desafío:</strong>Simular sistema de registro de
+          inventario y ventas de la empresa donde laboro actualmente. Panaderia
+          pero en el area de ventas se utilza un sistema POS llamado epico.
+          <strong>2.La Solución: </strong> Diseñé y construí un panel de control
+          (dashboard) interactivo en django.Implementé una lógica de filtrado
+          ajax para la busqueda de prodcutos en la base de datos. y un sistem de
+          envio de correo informativo de forma asincrona con celery y reddit al
+          realizar una venta. <strong>3. Aprendizaje:</strong> Aprenddi al
+          creacion de proyectos con django, la integracion con celery,
+          Javascript. conexion a base de datos difente a la predeterminada de
+          django.
         </p>
         <div>
           <img src={psys1} alt="psys_1" />

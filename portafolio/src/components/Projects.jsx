@@ -24,10 +24,25 @@ const ProjectPersonal = () => {
       <h2>Proyectos</h2>
       <Slider {...settings} className="slider">
         <p>
-          PsysMsql - Sistema de Gestión de Ventas 🛍️PsysMsql es una aplicación
-          web completa de gestión de ventas desarrollada con Django que permite
-          administrar productos, stock, ventas y usuarios con diferentes roles y
-          permisos.;
+          Título del Proyecto: Plataforma de Gestión de Inventario'Psys'Sistema
+          de Gestión de Ventas 🛍️PsysMsql es una aplicación web completa de
+          gestión de ventas desarrollada con Django que permite administrar
+          productos, stock, ventas y usuarios con diferentes roles y permisos.
+        </p>
+        <p>Rol: Desarrollador Principal</p>
+        <p>Tecnologías: Python,Django, Javascript, Mysql, Celery, Reddit</p>
+        <p>Duración: 7 meses</p>
+        <p>
+          1. El Desafío: Simular sistema de registro de inventario y ventas de
+          la empresa donde laboro actualmente. Panaderia pero en el area de
+          ventas se utilza un sistema POS llamado epico. 2.La Solución (Tu
+          Trabajo) "Diseñé y construí un panel de control (dashboard)
+          interactivo en django.Implementé una lógica de filtrado ajax para la
+          busqueda de prodcutos en la base de datos. y un sistem de envio de
+          correo informativo de forma asincrona con celery y reddit al realizar
+          una venta 3. Aprendizaje: Aprenddi al creacion de proyectos con
+          django, la integracion con celery, Javascript. conexion a base de
+          datos difente a la predeterminada de django.
         </p>
         <div>
           <img src={psys1} alt="psys_1" />

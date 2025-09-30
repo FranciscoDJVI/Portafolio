@@ -27,13 +27,12 @@
     top: 60px;
     left: 0;
     right: 0;
-    width: 100%;
+    width: fit-content;
     z-index: 1000;
     padding: 1rem;
     box-shadow:
       2px 2px 3px #babecc,
       -2px -2px 3px #212121;
-    border-radius: 24px;
     backdrop-filter: blur(2px);
   }
   .navbar .link {

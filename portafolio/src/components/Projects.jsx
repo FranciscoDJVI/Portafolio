@@ -24,14 +24,22 @@ const ProjectPersonal = () => {
       <h2>Proyectos</h2>
       <Slider {...settings} className="slider">
         <p>
-          Título del Proyecto: Plataforma de Gestión de Inventario'Psys'Sistema
-          de Gestión de Ventas 🛍️PsysMsql es una aplicación web completa de
-          gestión de ventas desarrollada con Django que permite administrar
-          productos, stock, ventas y usuarios con diferentes roles y permisos.
+          <strong>Título del Proyecto</strong>: Plataforma de Gestión de
+          Inventario 'Psys'Sistema de Gestión de Ventas 🛍️PsysMsql es una
+          aplicación web completa de gestión de ventas desarrollada con Django
+          que permite administrar productos, stock, ventas y usuarios con
+          diferentes roles y permisos.
         </p>
-        <p>Rol: Desarrollador Principal</p>
-        <p>Tecnologías: Python,Django, Javascript, Mysql, Celery, Reddit</p>
-        <p>Duración: 7 meses</p>
+        <p>
+          <strong>Rol:</strong>Desarrollador Principal
+        </p>
+        <p>
+          <strong>Tecnologías:</strong>Python, Django, Javascript, Mysql,
+          Celery, Reddit
+        </p>
+        <p>
+          <strong>Duración: </strong>7 meses
+        </p>
         <p>
           1. El Desafío: Simular sistema de registro de inventario y ventas de
           la empresa donde laboro actualmente. Panaderia pero en el area de

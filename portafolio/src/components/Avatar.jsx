@@ -14,6 +14,7 @@ function Avatar() {
         className="avatar-img"
         src={avatar}
         alt="Avatar"
+        fetchPriority="high"
       ></motion.img>
       <motion.aside
         initial={{ opacity: 0, y: -20 }}

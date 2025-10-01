@@ -12,7 +12,6 @@ function NavBar() {
       <Link className="link" to="/estudies">
         Estudios
       </Link>
-
       <Link className="link" to="/skills">
         Skils
       </Link>

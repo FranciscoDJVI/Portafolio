@@ -4,11 +4,7 @@ function Estudies() {
   const titleInfo = "Estudios";
   const textEstudies = "Ingeniero de sistemas";
 
-  return (
-    <div>
-      <Card title={titleInfo} textinfo={textEstudies} />
-    </div>
-  );
+  return <Card title={titleInfo} textinfo={textEstudies} />;
 }
 
 export default Estudies;

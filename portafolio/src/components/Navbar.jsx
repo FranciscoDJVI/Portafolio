@@ -9,6 +9,10 @@ function NavBar() {
       <Link className="link" to="/hobbies">
         Hobbies
       </Link>
+      <Link className="link" to="/estudies">
+        Estudios
+      </Link>
+
       <Link className="link" to="/skills">
         Skils
       </Link>

@@ -1,6 +1,7 @@
 import Avatar from "./Avatar";
 import PresentationText from "./PresentationText";
 import Hobbies from "./Hobbies";
+import Estudies from "./Estudies.jsx";
 import Skills from "./Skills";
 import ProjectPersonal from "./Projects";
 import NavBar from "./Navbar";
@@ -17,6 +18,7 @@ function Home() {
         <div className="card-principal">
           <PresentationText />
           <Hobbies />
+          <Estudies />
         </div>
       </FadeInSection>
       <FadeInSection>

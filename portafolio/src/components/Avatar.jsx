@@ -23,7 +23,7 @@ function Avatar() {
       >
         <h1>Francisco Vanegas</h1>
         <h2>Ingeniero de sistemas</h2>
-        <h2>vanegasfrancisco415@gmail.com</h2>
+        <h3>vanegasfrancisco415@gmail.com</h3>
         <h3>Colombia</h3>
         <a
           href="https://github.com/FranciscoDJVI"

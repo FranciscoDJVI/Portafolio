@@ -49,6 +49,7 @@
     font-weight: lighter;
   }
   p {
+    font-weight: lighter;
     text-align: justify;
     font-size: 18px;
   }
@@ -173,6 +174,7 @@
     font-size: 18px;
   }
   p {
+    font-weight: lighter;
     text-align: justify;
     font-size: 16px;
   }

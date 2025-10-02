@@ -21,9 +21,8 @@ function Avatar() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
-        <h1>Francisco Vanegas Ibarguen</h1>
-        <h3>Ing. de sistemas | Desarrollador Jr.</h3>
-        <h3>vanegasfrancisco415@gmail.com</h3>
+        <h1>Francisco Vanegas I.</h1>
+        <h3>Ing. de sistemas</h3>
         <h3>Colombia</h3>
         <a
           href="https://github.com/FranciscoDJVI"

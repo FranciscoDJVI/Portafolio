@@ -22,7 +22,7 @@ function Avatar() {
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <h1>Francisco Vanegas</h1>
-        <h3>Ingeniero de sistemas</h3>
+        <h3>Ingeniero de sistemas | Desarrollador Jr.</h3>
         <h3>vanegasfrancisco415@gmail.com</h3>
         <h3>Colombia</h3>
         <a

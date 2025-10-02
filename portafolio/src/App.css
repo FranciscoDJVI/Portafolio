@@ -6,11 +6,6 @@
   padding: 2rem;
   text-align: center;
 }
-.alan-sans {
-  font-family: "Alan Sans";
-  font-optical-sizing: auto;
-  font-style: normal;
-}
 
 .container {
   display: flex;

@@ -23,24 +23,24 @@ const ProjectPersonal = () => {
     <div className="projects">
       <h2>Proyectos</h2>
       <Slider {...settings} className="slider">
-        <p>
+        <p aria-label="title project">
           <strong>Título del Proyecto</strong>: Plataforma de Gestión de
           Inventario 'Psys'Sistema de Gestión de Ventas 🛍️PsysMsql es una
           aplicación web completa de gestión de ventas desarrollada con Django
           que permite administrar productos, stock, ventas y usuarios con
           diferentes roles y permisos.
         </p>
-        <p>
+        <p aria-label="Rol">
           <strong>Rol:</strong>Desarrollador Principal
         </p>
-        <p>
+        <p aria-label="Technologies">
           <strong>Tecnologías:</strong>Python, Django, Javascript, Mysql,
           Celery, Reddit
         </p>
-        <p>
+        <p aria-label="Duration">
           <strong>Duración: </strong>7 meses
         </p>
-        <p>
+        <p aria-label="Challenge">
           <strong>1. El Desafío:</strong>Simular sistema de registro de
           inventario y ventas de la empresa donde laboro actualmente. Panaderia
           pero en el area de ventas se utilza un sistema POS llamado epico.

@@ -110,6 +110,11 @@
   }
 
   .skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     box-shadow:
       3px 3px 5px #0d1b2a,
       -3px -3px 5px #babecc;

@@ -113,18 +113,20 @@
     box-shadow:
       3px 3px 5px #0d1b2a,
       -3px -3px 5px #babecc;
-    border-radius: 24px;
+    border-radius: [16px;
     padding: 10px;
+    margin-bottom: 400px;
+    height: fit-content;
   }
   .skills .icons {
     font-size: 60px;
     filter: drop-shadow(2px 2px 3px #dddddd);
-    margin-bottom: 400px;
     box-shadow:
       3px 3px 5px #0d1b2a,
       -3px -3px 5px #babecc;
-    border-radius: 16px;
+    border-radius: 24px;
     padding: 10px;
+    margin: 5px;
   }
   .projects {
     width: 1000px;

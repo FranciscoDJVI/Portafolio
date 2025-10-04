@@ -8,8 +8,6 @@ import {
   faJs,
 } from "@fortawesome/free-brands-svg-icons";
 
-import Card from "./Card";
-
 function Skills() {
   return (
     <div className="skills">
@@ -27,9 +25,37 @@ function Skills() {
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <FontAwesomeIcon icon={faPython} />
+      </motion.aside>
+      <motion.aside
+        className="icons"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+      >
         <FontAwesomeIcon icon={faReact} />
+      </motion.aside>
+      <motion.aside
+        className="icons"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+      >
         <FontAwesomeIcon icon={faGit} />
+      </motion.aside>
+      <motion.aside
+        className="icons"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+      >
         <FontAwesomeIcon icon={faGithub} />
+      </motion.aside>
+      <motion.aside
+        className="icons"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+      >
         <FontAwesomeIcon icon={faJs} />
       </motion.aside>
     </div>

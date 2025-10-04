@@ -87,7 +87,7 @@
   }
   .card-principal {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -103,8 +103,8 @@
     padding: #f1f1f1f1;
     border-radius: 24px;
     padding: 30px;
-    width: fit-content;
-    height: auto;
+    width: auto;
+    height: fit-content;
     margin: 25px;
   }
 
@@ -123,6 +123,7 @@
       -3px -3px 5px #babecc;
     border-radius: 16px;
     padding: 10px;
+    margin: 5px;
   }
   .projects {
     width: 1000px;

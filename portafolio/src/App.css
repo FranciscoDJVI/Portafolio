@@ -114,7 +114,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     box-shadow:
       3px 3px 5px #0d1b2a,
       -3px -3px 5px #babecc;
@@ -251,6 +251,16 @@
     border-radius: 15px;
     padding: 15px;
     margin-top: 15px;
+  }
+  .skills {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .skills .icons {
     font-size: 40px;

@@ -107,6 +107,12 @@
     height: auto;
     margin: 25px;
   }
+
+  .skills {
+    box-shadow:
+      3px 3px 5px #0d1b2a,
+      -3px -3px 5px #babecc;
+  }
   .skills .icons {
     font-size: 60px;
     filter: drop-shadow(2px 2px 3px #dddddd);

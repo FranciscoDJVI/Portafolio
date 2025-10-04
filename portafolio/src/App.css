@@ -87,7 +87,7 @@
   }
   .card-principal {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -101,7 +101,7 @@
       -3px -3px 5px #babecc;
     background: "var(--principal-color)";
     padding: #f1f1f1f1;
-    border-radius: 15px;
+    border-radius: 24px;
     padding: 30px;
     width: fit-content;
     height: auto;
@@ -122,6 +122,7 @@
       3px 3px 5px #0d1b2a,
       -3px -3px 5px #babecc;
     border-radius: 16px;
+    padding: 10px;
   }
   .projects {
     width: 1000px;

@@ -103,7 +103,7 @@
     padding: #f1f1f1f1;
     border-radius: 15px;
     padding: 30px;
-    width: auto;
+    width: fit-content;
     height: auto;
     margin: 25px;
   }

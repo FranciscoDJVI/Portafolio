@@ -88,6 +88,7 @@
   .card-principal {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-bottom: 400px;
@@ -102,8 +103,8 @@
     padding: #f1f1f1f1;
     border-radius: 15px;
     padding: 30px;
-    width: 250px;
-    height: 350px;
+    width: auto;
+    height: auto;
     margin: 25px;
   }
   .skills .icons {
@@ -212,7 +213,7 @@
 
   .card-principal {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin: 10px;
     margin-bottom: 400px;
   }

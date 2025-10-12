@@ -2,15 +2,12 @@ export function ContactForm() {
   return (
     <div>
       <form>
-        <input
-          type="text"
-          name="email"
-          value="email"
-          placeholder="example@gmail.com"
-        >
+        <input type="text" placeholder="example@gmail.com">
           Correo
         </input>
-        <textarea placeholder="Comentario...">Comentario</textarea>
+        <textarea placeholder="Comentario..." rows="4">
+          Comentario
+        </textarea>
       </form>
     </div>
   );

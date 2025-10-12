@@ -10,8 +10,12 @@ export function ContactForm() {
           placeholder="example@gmail.com"
           {...register("email", { required: "true" })}
         />
-        <textarea placeholder="Comentario..." rows="4" />
-        {...register("comment", { required: "true" })}
+        <textarea
+          placeholder="Comentario..."
+          rows="4"
+          {...register("comment", { required: "true" })}
+        />
+
         <button>Enviar</button>
       </form>
     </div>

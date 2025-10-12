@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import ProjectPersonal from "./components/Projects";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
+import { ContactForm } from "./pages/ContactForm";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/estudies" element={<Estudies />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/projects" element={<ProjectPersonal />} />
+      <Routes path="/contacts" element={<ContactForm />}></Routes>
     </Routes>
   );
 }

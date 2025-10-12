@@ -18,6 +18,9 @@ function NavBar() {
       <Link className="link" to="/projects">
         Proyectos
       </Link>
+      <Link className="link" to="/contacts">
+        Contacto
+      </Link>
     </nav>
   );
 }

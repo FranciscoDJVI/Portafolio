@@ -1,11 +1,11 @@
-import Avatar from "./Avatar";
-import PresentationText from "./PresentationText";
-import Hobbies from "./Hobbies";
-import Estudies from "./Estudies.jsx";
-import Skills from "./Skills";
-import ProjectPersonal from "./Projects";
-import NavBar from "./Navbar";
-import FadeInSection from "./FadeInSection";
+import Avatar from "../components/Avatar";
+import PresentationText from "../components/PresentationText";
+import Hobbies from "../components/Hobbies";
+import Estudies from "../components/Estudies.jsx";
+import Skills from "../components/Skills";
+import ProjectPersonal from "../components/Projects";
+import NavBar from "../components/Navbar";
+import FadeInSection from "../components/FadeInSection";
 
 function Home() {
   return (

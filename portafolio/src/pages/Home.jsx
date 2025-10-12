@@ -6,6 +6,7 @@ import Skills from "../components/Skills";
 import ProjectPersonal from "../components/Projects";
 import NavBar from "../components/Navbar";
 import FadeInSection from "../components/FadeInSection";
+import { ContactForm } from "./ContactForm";
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function Home() {
       <FadeInSection>
         <ProjectPersonal />
       </FadeInSection>
+      <ContactForm />,
     </div>
   );
 }

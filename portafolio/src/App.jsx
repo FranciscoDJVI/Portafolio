@@ -6,7 +6,7 @@ import Estudies from "./components/Estudies.jsx";
 import Skills from "./components/Skills";
 import ProjectPersonal from "./components/Projects";
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home.jsx";
+import Home from "./pages/Home.jsx";
 
 function App() {
   return (

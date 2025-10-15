@@ -11,7 +11,7 @@ export function ContactForm() {
     await sendDataforEmail(data);
   };
   return (
-    <div className="flex flex-col flex-wrap gap-3">
+    <div className="div-form">
       <form onSubmit={handleSubmit(onSubmit)}>
         <input
           type="text"

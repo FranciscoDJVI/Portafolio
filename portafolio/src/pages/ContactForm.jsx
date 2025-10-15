@@ -11,8 +11,11 @@ export function ContactForm() {
     await sendDataforEmail(data);
   };
   return (
-    <div className="div-form">
-      <form onSubmit={handleSubmit(onSubmit)}>
+    <div className="border border-black p-2">
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        className="flex flex-row flex-wrap gap-2"
+      >
         <input
           type="text"
           placeholder="example@gmail.com"

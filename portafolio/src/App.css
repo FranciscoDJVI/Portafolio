@@ -17,6 +17,11 @@
   border-radius: 15px;
 }
 
+.div-form {
+  display: flezx;
+  flex-direction: row;
+}
+
 @media (max-width: 2444px) {
   .container {
     flex-wrap: wrap;

@@ -1,9 +1,13 @@
 import { useForm } from "react-hook-form";
+import { sendDataforEmail } from "../api/email.api";
 
 export function ContactForm() {
   const { register, handleSubmit } = useForm();
+  const params = useParams();
+  console.log(params);
   const onSubmit = (data) => {
     console.log(data);
+    sendDataforEmail(data);
   };
   return (
     <div>

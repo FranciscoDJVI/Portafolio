@@ -6,9 +6,9 @@ export function ContactForm() {
   const { register, handleSubmit } = useForm();
   const params = useParams();
   console.log(params);
-  const onSubmit = (data) => {
+  const onSubmit = async (data) => {
     console.log(data);
-    sendDataforEmail(data);
+    await sendDataforEmail(data);
   };
   return (
     <div>

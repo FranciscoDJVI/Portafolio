@@ -16,17 +16,17 @@ export function ContactForm() {
         <input
           type="text"
           placeholder="example@gmail.com"
-          {...register("email", { required: "true" })}
+          {...register("email_contact", { required: "true" })}
         />
         <input
           type="text"
           placeholder="Asunto"
-          {...register('subject,{required:"true"}')}
+          {...register("subject", { required: "true" })}
         ></input>
         <textarea
           placeholder="Comentario..."
           rows="4"
-          {...register("comment", { required: "true" })}
+          {...register("message", { required: "true" })}
         />
 
         <button type="submit">Enviar</button>

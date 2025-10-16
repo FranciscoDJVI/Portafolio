@@ -28,7 +28,9 @@ function Home() {
       <FadeInSection>
         <ProjectPersonal />
       </FadeInSection>
-      <ContactForm />,
+      <FadeInSection>
+        <ContactForm />
+      </FadeInSection>
     </div>
   );
 }

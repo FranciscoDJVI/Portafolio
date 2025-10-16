@@ -11,7 +11,7 @@ export function ContactForm() {
     await sendDataforEmail(data);
   };
   return (
-    <div className="border border-black p-2">
+    <div className="contact-form ">
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="flex flex-row flex-wrap gap-2"

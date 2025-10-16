@@ -184,6 +184,19 @@
   }
   .contact-div .contact-form input {
     padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  .contact-div .contact-form textarea {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  .contact-div .contact-form button {
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
+    background: #babecc;
   }
 }
 
@@ -328,5 +341,47 @@
     padding: 5px;
     color: #212121;
     z-index: 1;
+  }
+  .contact-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+      3px 3px 5px #0d1b2a,
+      -3px -3px 5px #babecc;
+    border-radius: 16px;
+    padding: 10px;
+    height: fit-content;
+  }
+  .contact-div .contact-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+      3px 3px 5px #0d1b2a,
+      -3px -3px 5px #babecc;
+    border-radius: 16px;
+    padding: 10px;
+    height: fit-content;
+  }
+  .contact-div .contact-form input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  .contact-div .contact-form textarea {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  .contact-div .contact-form button {
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
+    background: #babecc;
   }
 }

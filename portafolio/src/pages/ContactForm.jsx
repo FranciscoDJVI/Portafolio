@@ -1,13 +1,9 @@
 import { useForm } from "react-hook-form";
 import { sendDataforEmail } from "../api/email.api";
-import { useParams } from "react-router-dom";
 
 export function ContactForm() {
   const { register, handleSubmit } = useForm();
-  const params = useParams();
-  console.log(params);
   const onSubmit = async (data) => {
-    console.log(data);
     await sendDataforEmail(data);
   };
   return (
@@ -24,11 +20,10 @@ export function ContactForm() {
           {...register("subject", { required: "true" })}
         ></input>
         <textarea
-          placeholder="Comentario..."
+          placeholder="Mensaje..."
           rows="4"
           {...register("message", { required: "true" })}
         />
-
         <button type="submit">Enviar</button>
       </form>
     </div>

@@ -5,6 +5,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: "Alan sans, sans-serif";
 }
 
 .container {
@@ -198,6 +199,9 @@
     margin: 5px;
     font-size: 12px;
     background: #babecc;
+    box-shadow:
+      3px 3px 5px #0d1b2a,
+      -3px -3px 5px #babecc;
   }
 }
 
@@ -385,5 +389,8 @@
     margin: 5px;
     font-size: 12px;
     background: #babecc;
+    box-shadow:
+      3px 3px 5px #0d1b2a,
+      -3px -3px 5px #babecc;
   }
 }

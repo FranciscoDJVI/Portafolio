@@ -167,12 +167,11 @@
       -3px -3px 5px #babecc;
     border-radius: 16px;
     padding: 10px;
-    margin-bottom: 400px;
     height: fit-content;
   }
   .contact-div .contact-form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -181,8 +180,10 @@
       -3px -3px 5px #babecc;
     border-radius: 16px;
     padding: 10px;
-    margin-bottom: 400px;
     height: fit-content;
+  }
+  .contact-div .contact-form input {
+    padding: 10px;
   }
 }
 

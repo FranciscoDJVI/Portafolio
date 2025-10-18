@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const emailApi = axios.create({
-  baseURL: "http://localhost:8000/api_portfilio/api/v1/api_portfilio/",
+  baseURL:
+    "https://backend-porfolio-bhf2.onrender.com/api_portfilio/api/v1/api_portfilio/",
 });
 
 export function sendDataforEmail(data) {

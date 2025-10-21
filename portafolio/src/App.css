@@ -193,6 +193,16 @@ body {
     border: none;
     width: 650px;
     font-family: "Arial", sans-serif;
+    transition-delay: 0.5ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+  }
+  .contact-div .contact-form input:hover {
+    background: aliceblue;
+    transition: background 0.5s ease-in-out;
+    transition-delay: 0.5ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
   }
   .contact-div .contact-form textarea {
     padding: 10px;
@@ -203,7 +213,18 @@ body {
     border-radius: 16px;
     background: transparent;
     font-family: "Arial", sans-serif;
+    transition-delay: 0.5ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
   }
+  .contact-div .contact-form textarea:hover {
+    background: aliceblue;
+    transition: background 0.5s ease-in-out;
+    transition-delay: 0.5ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+  }
+
   .contact-div .contact-form button {
     padding: 5px;
     margin: 5px;

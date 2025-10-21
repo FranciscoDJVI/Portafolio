@@ -1,0 +1,12 @@
+
+User-agent: *
+
+Allow: /static/
+
+Allow: /assets/
+Allow: /node_modules/ (Si sirves módulos directamente, aunque no es lo ideal)
+
+User-agent: Googlebot
+Allow: /static/' 
+
+Sitemap: https://portfolio-woad-gamma-p8jrew5t2l.vercel.app/sitemap.xml

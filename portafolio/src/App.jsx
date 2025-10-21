@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import { lazy, **Suspense**} from "react";
+import { lazy, Suspense } from "react";
 import { ContactForm } from "./pages/ContactForm";
 
 const Home = lazy(() => import("./pages/Home.jsx"));

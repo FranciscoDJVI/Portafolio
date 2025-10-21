@@ -179,7 +179,7 @@ body {
     box-shadow:
       3px 3px 5px #0d1b2a,
       -3px -3px 5px #babecc;
-    border-radius: 16px;
+    border-radius: 24px;
     padding: 10px;
     height: fit-content;
     width: 700px;
@@ -200,7 +200,7 @@ body {
     font-size: 14px;
     width: 650px;
     border: none;
-    border-radius: 24px;
+    border-radius: 16px;
     background: transparent;
     font-family: "Arial", sans-serif;
   }

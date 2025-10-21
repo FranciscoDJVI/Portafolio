@@ -14,7 +14,14 @@ export function ContactForm() {
     } catch (error) {
       toast.error("Email no envidado", {
         position: "bottom-right",
-        style: { background: "transparent", color: "#000000" },
+        style: {
+          background: "transparent",
+          color: "#000000",
+          fontFamily: "Arial",
+          width: "100",
+          height: "auto",
+          fontSize: "16px",
+        },
       });
       console.error(error);
     }

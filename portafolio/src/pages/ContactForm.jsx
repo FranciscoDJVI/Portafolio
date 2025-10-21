@@ -1,10 +1,15 @@
 import { useForm } from "react-hook-form";
 import { sendDataforEmail } from "../api/email.api";
+import { toast } from "react-hot-toast";
 
 export function ContactForm() {
   const { register, handleSubmit } = useForm();
   const onSubmit = async (data) => {
     await sendDataforEmail(data);
+    toast.success("Correo enviado", {
+      position: "top-center",
+      style: { bground: "#101010", color: "#fff" },
+    });
   };
   return (
     <div className="contact-div">

@@ -8,19 +8,23 @@ import ProjectPersonal from "./components/Projects";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import { ContactForm } from "./pages/ContactForm";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/avatar" element={<Avatar />} />
-      <Route path="/presentation" element={<PresentationText />} />
-      <Route path="/hobbies" element={<Hobbies />} />
-      <Route path="/estudies" element={<Estudies />} />
-      <Route path="/skills" element={<Skills />} />
-      <Route path="/projects" element={<ProjectPersonal />} />
-      <Route path="/contacts" element={<ContactForm />}></Route>
-    </Routes>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/avatar" element={<Avatar />} />
+        <Route path="/presentation" element={<PresentationText />} />
+        <Route path="/hobbies" element={<Hobbies />} />
+        <Route path="/estudies" element={<Estudies />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<ProjectPersonal />} />
+        <Route path="/contacts" element={<ContactForm />}></Route>
+      </Routes>
+      <Toaster />
+    </div>
   );
 }
 

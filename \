@@ -6,6 +6,7 @@ export function ContactForm() {
   const { register, handleSubmit } = useForm();
   const onSubmit = async (data) => {
     await sendDataforEmail(data);
+
     toast.success("Email envidado", {
       position: "bottom-right",
       style: { background: "transparent", color: "#ffffff" },

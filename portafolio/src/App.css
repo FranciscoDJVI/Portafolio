@@ -191,6 +191,7 @@ body {
     background: transparent;
     backdrop-filter: blur(25px);
     border: none;
+    border-radius: 16px;
     width: 650px;
     font-family: "Arial", sans-serif;
     transition-delay: 0.5ms;
@@ -399,25 +400,59 @@ body {
     box-shadow:
       3px 3px 5px #0d1b2a,
       -3px -3px 5px #babecc;
-    border-radius: 16px;
+    border-radius: 24px;
     padding: 10px;
     height: fit-content;
+    width: 350px;
   }
   .contact-div .contact-form input {
     padding: 10px;
     margin: 5px;
     font-size: 14px;
+    background: transparent;
+    backdrop-filter: blur(25px);
+    border: none;
+    border-radius: 16px;
+    width: 250px;
+    font-family: "Arial", sans-serif;
+    transition-delay: 0.5ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+  }
+  .contact-div .contact-form input:hover {
+    background: aliceblue;
+    transition: background 0.5s ease-in-out;
+    transition-delay: 0.5ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
   }
   .contact-div .contact-form textarea {
     padding: 10px;
     margin: 5px;
     font-size: 14px;
+    width: 250px;
+    border: none;
+    border-radius: 16px;
+    background: transparent;
+    font-family: "Arial", sans-serif;
+    transition-delay: 0.5ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
   }
+  .contact-div .contact-form textarea:hover {
+    background: aliceblue;
+    transition: background 0.5s ease-in-out;
+    transition-delay: 0.5ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+  }
+
   .contact-div .contact-form button {
     padding: 5px;
     margin: 5px;
     font-size: 12px;
     background: #babecc;
+    border-radius: 5px;
     box-shadow:
       3px 3px 5px #0d1b2a,
       -3px -3px 5px #babecc;

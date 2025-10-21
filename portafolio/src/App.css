@@ -191,7 +191,8 @@ body {
     background: transparent;
     backdrop-filter: blur(25px);
     border: none;
-    width: 680px;
+    width: 650px;
+    font-family: "Arial", sans-serif;
   }
   .contact-div .contact-form textarea {
     padding: 10px;
@@ -200,7 +201,7 @@ body {
     width: 650px;
     border: none;
     background: #ffffff;
-    backdrop-filter: blur(25px);
+    font-family: "Arial", sans-serif;
   }
   .contact-div .contact-form button {
     padding: 5px;

@@ -190,12 +190,15 @@ body {
     font-size: 14px;
     background: transparent;
     backdrop-filter: blur(0.5px);
+    border: none;
+    width: 680px;
   }
   .contact-div .contact-form textarea {
     padding: 10px;
     margin: 5px;
     font-size: 14px;
-    background: transparent;
+    width: 680px;
+    background: #dadada;
     backdrop-filter: blur(0.5px);
   }
   .contact-div .contact-form button {

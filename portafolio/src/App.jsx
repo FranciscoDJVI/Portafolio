@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import { lazy, Suspense } from "react";
+import { lazy, **Suspense**} from "react";
 import { ContactForm } from "./pages/ContactForm";
 
 const Home = lazy(() => import("./pages/Home.jsx"));
@@ -15,7 +15,7 @@ const ProjectPersonal = lazy(() => import("./components/Projects"));
 function App() {
   return (
     <div>
-      <suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/avatar" element={<Avatar />} />
@@ -26,8 +26,8 @@ function App() {
           <Route path="/projects" element={<ProjectPersonal />} />
           <Route path="/contacts" element={<ContactForm />}></Route>
         </Routes>
-        <Toaster />
-      </suspense>
+      </Suspense>
+      <Toaster />
     </div>
   );
 }

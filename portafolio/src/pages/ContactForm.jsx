@@ -29,7 +29,24 @@ export function ContactForm() {
           rows="4"
           {...register("message", { required: "true" })}
         />
-        <button type="submit">Enviar</button>
+        <button
+          type="submit"
+          onClick={(onSubmit) => {
+            if (onSubmit) {
+              toast.success("Email envidado", {
+                position: "bottom-right",
+                style: { background: "transparent", color: "#ffffff" },
+              });
+            } else {
+              toast.error("Email no envidado", {
+                position: "bottom-right",
+                style: { background: "transparent", color: "#ffffff" },
+              });
+            }
+          }}
+        >
+          Enviar
+        </button>
       </form>
     </div>
   );

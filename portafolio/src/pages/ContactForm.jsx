@@ -5,18 +5,17 @@ import { toast } from "react-hot-toast";
 export function ContactForm() {
   const { register, handleSubmit } = useForm();
   const onSubmit = async (data) => {
-    try {
-      await sendDataforEmail(data);
+    await sendDataforEmail(data);
+    if (sendDataforEmail.status === 200) {
       toast.success("Email envidado", {
         position: "bottom-right",
         style: { background: "transparent", color: "#ffffff" },
       });
-    } catch (error) {
+    } else {
       toast.error("Email no envidado", {
         position: "bottom-right",
         style: { background: "transparent", color: "#ffffff" },
       });
-      console.log(error);
     }
   };
   return (

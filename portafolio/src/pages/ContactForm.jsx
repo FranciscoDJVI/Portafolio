@@ -5,11 +5,19 @@ import { toast } from "react-hot-toast";
 export function ContactForm() {
   const { register, handleSubmit } = useForm();
   const onSubmit = async (data) => {
-    await sendDataforEmail(data);
-    toast.success("Email envidado", {
-      position: "bottom-right",
-      style: { background: "transparent", color: "#ffffff" },
-    });
+    try {
+      await sendDataforEmail(data);
+      toast.success("Email envidado", {
+        position: "bottom-right",
+        style: { background: "transparent", color: "#ffffff" },
+      });
+    } catch (error) {
+      toast.error("Email no envidado", {
+        position: "bottom-right",
+        style: { background: "transparent", color: "#ffffff" },
+      });
+      console.log(error);
+    }
   };
   return (
     <div className="contact-div">
@@ -29,24 +37,7 @@ export function ContactForm() {
           rows="4"
           {...register("message", { required: "true" })}
         />
-        <button
-          type="submit"
-          onClick={(onSubmit) => {
-            if (onSubmit) {
-              toast.success("Email envidado", {
-                position: "bottom-right",
-                style: { background: "transparent", color: "#ffffff" },
-              });
-            } else {
-              toast.error("Email no envidado", {
-                position: "bottom-right",
-                style: { background: "transparent", color: "#ffffff" },
-              });
-            }
-          }}
-        >
-          Enviar
-        </button>
+        <button type="submit">Enviar</button>
       </form>
     </div>
   );

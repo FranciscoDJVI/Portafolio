@@ -34,7 +34,7 @@ function Avatar() {
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
-          href="https://www.linkedin.com/in/francisco-vanegas-134522229"
+          href="https://www.linkedin.com/in/francisco-vanegas-6a899238b"
           target="_blank"
           rel="nooponer noreferrer"
           alt="linkedin"

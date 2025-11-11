@@ -64,7 +64,7 @@ const ProjectPersonal = () => {
         </div>
       </Slider>
       <a
-        href="https://github.com/FranciscoDJVI/work-personal"
+        href="https://github.com/FranciscoDJVI/PSYS.git"
         target="_blank"
         rel="nooponer noreferrer"
         aria-label="Read more about proyect Psys"

@@ -27,8 +27,8 @@ const ProjectPersonal = () => {
       <Slider {...settings} className="slider">
         <p aria-label="title project">
           <strong>Título del Proyecto</strong>: Plataforma de Gestión de
-          Inventario 'Psys'Sistema de Gestión de Ventas 🛍️PsysMsql es una
-          aplicación web completa de gestión de ventas desarrollada con Django
+          Inventario 'Psys'Sistema de Gestión de Ventas es una
+          aplicación web completa de gestión de ventas desarrollada con Djangoresframework y react
           que permite administrar productos, stock, ventas y usuarios con
           diferentes roles y permisos.
         </p>
@@ -36,24 +36,17 @@ const ProjectPersonal = () => {
           <strong>Rol:</strong>Desarrollador Principal
         </p>
         <p aria-label="Technologies">
-          <strong>Tecnologías:</strong>Python, Django, Javascript, Mysql,
-          Celery, Reddit
-        </p>
+          <strong>Tecnologías:</strong>Python, Django, React, Javascript</p>
         <p aria-label="Duration">
-          <strong>Duración: </strong>7 meses
+          <strong>Duración: </strong>1 meses
         </p>
         <p aria-label="Challenge">
           <strong>1. El Desafío:</strong>Simular sistema de registro de
           inventario y ventas de la empresa donde laboro actualmente. Panaderia
           pero en el area de ventas se utilza un sistema POS llamado epico.
           <strong>2.La Solución: </strong> Diseñé y construí un panel de control
-          (dashboard) interactivo en django.Implementé una lógica de filtrado
-          ajax para la busqueda de prodcutos en la base de datos. y un sistem de
-          envio de correo informativo de forma asincrona con celery y reddit al
-          realizar una venta. <strong>3. Aprendizaje:</strong> Aprenddi al
-          creacion de proyectos con django, la integracion con celery,
-          Javascript. conexion a base de datos difente a la predeterminada de
-          django.
+          (dashboard) interactivo en react y en el backend utilice Djangoresframework.
+          <strong>3. Aprendizaje:</strong> Aprendi el proceso de conectar un frontend y backend creados en tecnologias diferentes.
         </p>
         <div>
           <img src={psys1} alt="psys_1" />
@@ -65,10 +58,10 @@ const ProjectPersonal = () => {
           <img src={psys3} alt="psys_3" />
         </div>
         <div>
-          <img src={psys3} alt="psys_4" />
+          <img src={psys4} alt="psys_4" />
         </div>
         <div>
-          <img src={psys3} alt="psys_4" />
+          <img src={psys5} alt="psys_4" />
         </div>
 
       </Slider>

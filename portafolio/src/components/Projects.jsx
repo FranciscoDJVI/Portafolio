@@ -2,6 +2,8 @@ import React from "react";
 import psys1 from "../assets/images/psys_1.webp";
 import psys2 from "../assets/images/psys_2.webp";
 import psys3 from "../assets/images/psys_3.webp";
+import psys4 from "../assets/images/psys_4.webp";
+import psys5 from "../assets/images/psys_5.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -62,6 +64,13 @@ const ProjectPersonal = () => {
         <div>
           <img src={psys3} alt="psys_3" />
         </div>
+        <div>
+          <img src={psys3} alt="psys_4" />
+        </div>
+        <div>
+          <img src={psys3} alt="psys_4" />
+        </div>
+
       </Slider>
       <a
         href="https://github.com/FranciscoDJVI/PSYS.git"

@@ -27,7 +27,7 @@ const ProjectPersonal = () => {
         <p aria-label="title project">
           <strong>Título del Proyecto</strong>: Plataforma de Gestión de
           Inventario 'Psys'Sistema de Gestión de Ventas es una
-          aplicación web completa de gestión de ventas desarrollada con Djangoresframework y react
+          aplicación web completa de gestión de ventas desarrollada con <strong>Djangorestframework</strong> y <strong>React</strong>. Esta plataforma
           que permite administrar productos, stock, ventas y usuarios con
           diferentes roles y permisos.
         </p>

@@ -1,4 +1,3 @@
-import React from "react";
 import psys1 from "../assets/images/psys_1.webp";
 import psys2 from "../assets/images/psys_2.webp";
 import psys3 from "../assets/images/psys_3.webp";
@@ -36,7 +35,7 @@ const ProjectPersonal = () => {
           <strong>Rol:</strong>Desarrollador Principal
         </p>
         <p aria-label="Technologies">
-          <strong>Tecnologías:</strong>Python, Django, React, Javascript</p>
+          <strong>Tecnologías:</strong>Python, Djangorestframework, React, Javascript</p>
         <p aria-label="Duration">
           <strong>Duración: </strong>1 meses
         </p>

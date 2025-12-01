@@ -35,7 +35,13 @@ const ProjectPersonal = () => {
           <strong>Rol:</strong>Desarrollador Principal
         </p>
         <p aria-label="Technologies">
-          <strong>Tecnologías:</strong>Python, Djangorestframework, React, Javascript</p>
+          <strong>Tecnologías:</strong>
+          <br />
+          <span className="badge">Python</span>
+          <span className="badge">Django REST framework</span>
+          <span className="badge">React</span>
+          <span className="badge">Javascript</span>
+        </p>
         <p aria-label="Duration">
           <strong>Duración: </strong>1 meses
         </p>

@@ -10,7 +10,8 @@ export default function useOnScreen() {
         setIntersecting(entry.isIntersecting);
       },
       {
-        threshold: 0.5,
+        threshold: 0.1,
+        rootMargin: "0px 0px -100px 0px",
       },
     );
     if (ref.current) {
@@ -24,3 +25,4 @@ export default function useOnScreen() {
   }, []);
   return [ref, isIntersecting];
 }
+

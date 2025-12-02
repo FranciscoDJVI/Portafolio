@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import avatar from "../assets/images/avatar.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

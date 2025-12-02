@@ -23,8 +23,6 @@ const ProjectPersonal = () => {
   return (
     <div className="projects">
       <h2>Proyectos</h2>
-
-
       <div className="project-info">
         <div className="project-header">
           <h3>Plataforma de Gestión de Inventario 'Psys'</h3>

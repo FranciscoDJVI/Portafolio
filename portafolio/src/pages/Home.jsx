@@ -16,11 +16,9 @@ function Home() {
         <Avatar />
       </FadeInSection>
       <FadeInSection>
-        <div className="card-principal">
           <PresentationText />
           <Hobbies />
           <Estudies />
-        </div>
       </FadeInSection>
       <FadeInSection>
         <Skills />

@@ -18,46 +18,51 @@ function Skills() {
       >
         Skills
       </motion.h2>
-      <motion.aside
-        className="icons"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-      >
-        <FontAwesomeIcon icon={faPython} />
-      </motion.aside>
-      <motion.aside
-        className="icons"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-      >
-        <FontAwesomeIcon icon={faReact} />
-      </motion.aside>
-      <motion.aside
-        className="icons"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-      >
-        <FontAwesomeIcon icon={faGit} />
-      </motion.aside>
-      <motion.aside
-        className="icons"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-      >
-        <FontAwesomeIcon icon={faGithub} />
-      </motion.aside>
-      <motion.aside
-        className="icons"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-      >
-        <FontAwesomeIcon icon={faJs} />
-      </motion.aside>
+      <div className="icons" data-tooltip="Python">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+        >
+          <FontAwesomeIcon icon={faPython} />
+        </motion.div>
+      </div>
+      <div className="icons" data-tooltip="React">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+        >
+          <FontAwesomeIcon icon={faReact} />
+        </motion.div>
+      </div>
+      <div className="icons" data-tooltip="Git">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+        >
+          <FontAwesomeIcon icon={faGit} />
+        </motion.div>
+      </div>
+      <div className="icons" data-tooltip="GitHub">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+        >
+          <FontAwesomeIcon icon={faGithub} />
+        </motion.div>
+      </div>
+      <div className="icons" data-tooltip="JavaScript">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+        >
+          <FontAwesomeIcon icon={faJs} />
+        </motion.div>
+      </div>
     </div>
   );
 }

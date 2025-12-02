@@ -12,9 +12,26 @@ const Estudies = lazy(() => import("./components/Estudies.jsx"));
 const Skills = lazy(() => import("./components/Skills"));
 const ProjectPersonal = lazy(() => import("./components/Projects"));
 
+import ThemeToggle from "./components/ThemeToggle";
+import { useState, useEffect } from "react";
+
 function App() {
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem("theme") || "dark";
+  });
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
+  };
+
   return (
     <div>
+      <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />

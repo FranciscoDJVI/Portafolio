@@ -13,6 +13,7 @@ const Skills = lazy(() => import("./components/Skills"));
 const ProjectPersonal = lazy(() => import("./components/Projects"));
 
 
+
 function App() {
   return (
     <div>
@@ -24,7 +25,7 @@ function App() {
           <Route path="/hobbies" element={<Hobbies />} />
           <Route path="/estudies" element={<Estudies />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<ProjectPersonal />} />
+          <Route path="/projects" element={<ProjectPersonal standalone={true} />} />
           <Route path="/contacts" element={<ContactForm />} />
         </Routes>
       </Suspense>
@@ -34,3 +35,4 @@ function App() {
 }
 
 export default App;
+

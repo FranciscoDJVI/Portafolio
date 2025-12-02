@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-const ProjectPersonal = () => {
+const ProjectPersonal = ({ standalone = false }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -21,7 +21,7 @@ const ProjectPersonal = () => {
   };
 
   return (
-    <div className="projects">
+    <div className={`projects ${standalone ? 'projects-standalone' : ''}`}>
       <h2>Proyectos</h2>
       <div className="project-info">
         <div className="project-header">
@@ -118,3 +118,4 @@ const ProjectPersonal = () => {
   );
 };
 export default ProjectPersonal;
+

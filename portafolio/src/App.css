@@ -477,6 +477,10 @@ p {
   padding: 1.5rem;
 }
 
+.projects-standalone {
+  display: block !important;
+}
+
 .project-info {
   background: var(--glass-bg);
   backdrop-filter: blur(10px);

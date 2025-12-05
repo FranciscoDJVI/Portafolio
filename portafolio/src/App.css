@@ -373,6 +373,7 @@ p {
 }
 
 .presentation-text h2 {
+  text-align: justify;
   margin-bottom: 1rem;
 }
 

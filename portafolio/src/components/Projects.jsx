@@ -42,7 +42,7 @@ const ProjectPersonal = ({ standalone = false }) => {
 
           <div className="project-detail-item">
             <strong>Duración:</strong>
-            <span>1 mes</span>
+            <span>5 mes</span>
           </div>
 
           <div className="project-detail-item technologies">

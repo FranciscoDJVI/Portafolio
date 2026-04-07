@@ -3,6 +3,8 @@ import psys2 from "../assets/images/psys_2.webp";
 import psys3 from "../assets/images/psys_3.webp";
 import psys4 from "../assets/images/psys_4.webp";
 import psys5 from "../assets/images/psys_5.webp";
+import psys6 from "../assets/images/psys_6.webp";
+import psys7 from "../assets/images/psys_7.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -86,19 +88,25 @@ const ProjectPersonal = ({ standalone = false }) => {
       <div className="project-slider">
         <Slider {...settings}>
           <div className="slide-item">
-            <img src={psys1} alt="Dashboard principal de Psys" />
+            <img src={psys1} alt="Inicio de sesion" />
           </div>
           <div className="slide-item">
-            <img src={psys2} alt="Gestión de productos en Psys" />
+            <img src={psys2} alt="Modulos" />
           </div>
           <div className="slide-item">
-            <img src={psys3} alt="Control de inventario en Psys" />
+            <img src={psys3} alt="Gestión de productos" />
           </div>
           <div className="slide-item">
-            <img src={psys4} alt="Módulo de ventas en Psys" />
+            <img src={psys4} alt="Módulo de ventas" />
           </div>
           <div className="slide-item">
-            <img src={psys5} alt="Reportes y estadísticas en Psys" />
+            <img src={psys5} alt="Registro de ventas" />
+          </div>
+          <div className="slide-item">
+            <img src={psys6} alt="Lista de ususarios" />
+          </div>
+          <div className="slide-item">
+            <img src={psys7} alt="Registro de usuarios" />
           </div>
         </Slider>
       </div>

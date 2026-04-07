@@ -1,10 +1,10 @@
-import psys1 from "../assets/images/psys_1.webp";
-import psys2 from "../assets/images/psys_2.webp";
-import psys3 from "../assets/images/psys_3.webp";
-import psys4 from "../assets/images/psys_4.webp";
-import psys5 from "../assets/images/psys_5.webp";
-import psys6 from "../assets/images/psys_6.webp";
-import psys7 from "../assets/images/psys_7.webp";
+import psys1 from "../assets/psys_1.webp";
+import psys2 from "../assets/psys_2.webp";
+import psys3 from "../assets/psys_3.webp";
+import psys4 from "../assets/psys_4.webp";
+import psys5 from "../assets/psys_5.webp";
+import psys6 from "../assets/psys_6.webp";
+import psys7 from "../assets/psys_7.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
